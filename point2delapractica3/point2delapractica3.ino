@@ -8,7 +8,7 @@ int count = 0;
 unsigned long debounceDelay = 200; 
 unsigned long lastTime1 = 0;
 unsigned long lastTime2 = 0;
-unsigned long delayTimes[] = {500, 1000, 1500};  
+unsigned long delayTimes[] = {30};  
 int numDelayTimes = 3;
 
 void incCount() {
